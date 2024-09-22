@@ -1,0 +1,92 @@
+/* Mengatur gaya dasar untuk halaman */
+body {
+    font-family: 'Times New Roman', sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #EBD3BC;
+    color: #333;
+}
+
+/* Gaya untuk header */
+header {
+    background-color: #66422D;
+    color: white;
+    padding: 20px;
+    text-align: center;
+}
+
+/* Gaya untuk menu navigasi */
+nav {
+    background-color: #C7976F;
+}
+
+nav ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+}
+
+nav ul li {
+    float: left;
+}
+
+nav ul li a {
+    display: block;
+    color: white;
+    text-align: center;
+    padding: 14px 20px;
+    text-decoration: none;
+}
+
+nav ul li a:hover {
+    background-color: #AA9D94;
+}
+
+/* Gaya untuk konten utama */
+main {
+    padding: 20px;
+}
+
+main section {
+    text-align: center; /* Pusatkan teks */
+    max-width: 600px; /* Atur lebar maksimal agar tidak terlalu lebar */
+    margin: 0 auto; /* Pusatkan secara horizontal */
+}
+
+main h2 {
+    color: #66422D;
+}
+
+/* untuk gambar profil */
+.foto-profil {
+    width: 300px; /* Lebar gambar */
+    height: 300px; /* Tinggi gambar */
+    border-radius: 50%; /* Membuat gambar menjadi lingkaran */
+    display: block; /* Menampilkan gambar sebagai blok */
+    margin: 0 auto 20px; /* Menambahkan jarak dan menempatkan di tengah */
+}
+
+/* Gaya untuk social media icons */
+.social-media {
+    display: flex; /* Tampilkan elemen dalam satu baris */
+    justify-content: center; /* ikon di tengah */
+    align-items: center; /* ikon sejajar */
+    gap: 10px; /* jarak antar ikon */
+    padding: 0; /* menghilangkan padding */
+    list-style-type: none; /* menghilangkan lingkaran kecil */
+}
+
+.social-media a img {
+    width: 20px; /* ukuran gambar ikon */
+    height: 20px;
+}
+
+/* gaya untuk footer */
+footer {
+    background-color: #C7976F;
+    color: white;
+    text-align: center;
+    padding: 10px 0;
+    width: 100%;
+}
